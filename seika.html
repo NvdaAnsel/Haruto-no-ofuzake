@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>成果物</title>
+    <link rel="stylesheet" href="seika.js">
+    <script language="JavaScript" type="text/javascript">
+        function nextPage(){
+            pwd=document.form1.pass.value;
+            location.href=pwd+".html";
+        }
+    </script>
+</head>
+<body>
+<h1>成果物一覧</h1>
+<h3>見るにはパスワードが必要です</h3>
+<form name="form1">
+    <input type="password" name="pass">
+    <input type="button" value="パスワード" onClick="nextPage();">
+</form>
+
+</body>
+</html>
