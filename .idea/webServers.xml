@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2ace56a2-1155-446c-96d6-6db12b588a70" name="ftp17.gmoserver.jp" url="http://ftp17.gmoserver.jp">
+        <fileTransfer host="ftp17.gmoserver.jp" port="21" rootFolder="/Haruto">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
